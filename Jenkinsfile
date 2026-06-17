@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'master', url: 'https://github.com/sindhud205/MymavenWebApp.git'
+                git branch: 'master', url: 'https://github.com/sindhud205/wa.git'
             }
         }
 
